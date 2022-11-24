@@ -34,15 +34,15 @@ int main(){
    }
    } while (marka!=111);
    
-   if (sayiR>sayiM || sayiR>sayiH || sayiR>sayiF)
+   if (sayiR>sayiM && sayiR>sayiH && sayiR>sayiF)
    {
     printf("Istasyona en cok gelen arac turu: Renault\n Gelis Sayisi: %d",sayiR);
    }
-   else if(sayiM>sayiR || sayiM>sayiH || sayiM>sayiF)
+   else if(sayiM>sayiR && sayiM>sayiH && sayiM>sayiF)
    {
     printf("Istasyona en cok gelen arac turu: Mazda\n Gelis Sayisi: %d", sayiM);
    }
-   else if(sayiH > sayiR || sayiH>sayiM || sayiH>sayiF)
+   else if(sayiH > sayiR && sayiH>sayiM && sayiH>sayiF)
    {
     printf("Istasyona en cok gelen arac turu: Honda\n Gelis Sayisi: %d", sayiH);
    }
